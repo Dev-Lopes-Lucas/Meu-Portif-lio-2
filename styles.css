@@ -1,3 +1,4 @@
+/* Estilos Globais */
 * {
     margin: 0;
     padding: 0;
@@ -56,10 +57,10 @@ body {
     color: azure;
     width: 60%;
     margin: 10% auto;
-    text-align:center;
+    text-align: center;
 }
 
-.lucas-img{
+.lucas-img {
     width: 400px;
     border-style: dashed;
     border-radius: 50px;
@@ -68,7 +69,6 @@ body {
 .main-information h1 {
     font-size: 3.5rem;
     margin-bottom: 1rem;
-    
 }
 
 .main-information h2 {
@@ -144,9 +144,9 @@ body {
     padding: 0 10%;
 }
 
-.main-text{
+.main-text {
     font-size: 2rem;
-   font-weight: bolder;
+    font-weight: bolder;
 }
 
 .container {
@@ -169,8 +169,6 @@ body {
     position: absolute;
     width: 100%;
     height: 100%;
-   /* background-color: black;
-    border: 1px solid #ccc;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -229,3 +227,110 @@ body {
     }
 }
 
+/* Media Queries para Responsividade */
+@media (max-width: 768px) {
+    .header-info {
+        flex-direction: row;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .header-words {
+        font-size: 1.5rem;
+        margin: 5px 0;
+    }
+
+    .main-information {
+        width: 80%;
+    }
+
+    .main-information h1 {
+        font-size: 2.5rem;
+    }
+
+    .main-information h2 {
+        font-size: 1.5rem;
+    }
+
+    .lucas-img {
+        width: 300px;
+    }
+
+    .about-lucas, .education, .projects {
+        width: 90%;
+    }
+
+    .about-lucas h1, .education h1, .projects h1 {
+        font-size: 3rem;
+    }
+
+    .about-lucas p {
+        font-size: 1.5rem;
+    }
+
+    .main-content {
+        padding: 20px 0;
+    }
+
+    .text-contact {
+        font-size: 1rem;
+    }
+
+    .main-text {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        width: 200px;
+        height: 200px;
+    }
+
+    .front-img, .right-img, .left-img, .top-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-words {
+        font-size: 1.2rem;
+    }
+
+    .main-information h1 {
+        font-size: 2rem;
+    }
+
+    .main-information h2 {
+        font-size: 1.2rem;
+    }
+
+    .lucas-img {
+        width: 200px;
+    }
+
+    .about-lucas h1, .education h1, .projects h1 {
+        font-size: 2rem;
+    }
+
+    .about-lucas p {
+        font-size: 1rem;
+    }
+
+    .text-contact {
+        font-size: 0.8rem;
+    }
+
+    .main-text {
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .front-img, .right-img, .left-img, .top-img {
+        width: 100px;
+        height: 100px;
+    }
+}
