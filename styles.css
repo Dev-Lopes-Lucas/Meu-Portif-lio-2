@@ -205,6 +205,13 @@ body {
     transform: rotateX(-90deg) translateZ(125px);
 }
 
+.footer-information{
+    width: 100%;
+    height: 100px;
+   
+
+}
+
 @keyframes rotate-cube {
     0% {
         transform: rotateX(45deg) rotateY(45deg);
