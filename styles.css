@@ -298,6 +298,10 @@ body {
     }
 }
 
+.footer-information{
+    width: 100%;
+    height: 100px;
+
 @media (max-width: 480px) {
     .header-words {
         font-size: 1.2rem;
@@ -341,3 +345,7 @@ body {
         height: 100px;
     }
 }
+
+.footer-information{
+    width: 100%;
+    height: 100px;
